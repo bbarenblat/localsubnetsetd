@@ -20,7 +20,3 @@ in the `inet filter` table. Create them with
 
     nft add set inet filter local_subnets4 { type ipv4_addr; flags interval; }
     nft add set inet filter local_subnets6 { type ipv6_addr; flags interval; }
-
----
-
-This is not an official Google product.
